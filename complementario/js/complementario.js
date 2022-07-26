@@ -238,7 +238,7 @@ function igual(){
 
         case 'raiz':
 
-            if(operador == null){
+            if(operador == null && resultado == 0){
 
                 alert("vacio");
 
@@ -251,7 +251,7 @@ function igual(){
         break;
 
         case 'mod':
-            if(operador == null){
+            if(operador == null && resultado == 0){
 
                 alert("vacio");
 
@@ -278,7 +278,7 @@ function igual(){
 
         case 'inversa':
 
-            if(operador == null){
+            if(operador == null && resultado == 0){
 
                 alert("vacio");
             }else{
