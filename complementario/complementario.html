@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complementario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/complementario.js"></script>
+</head>
+<body>
+    <div class="contenedor_calculadora">
+        <h2>Calculadora</h2>
+        <form name="caluladora" id="calculadora" action="">
+            <p id="respuesta"></p>
+            <div class="filas-1">
+                <input type="button" value="Backspace" onclick="backspace('backspace')">
+                <input type="button" value="CE" onclick="cE('')">
+                <input type="button" value="C" onclick="c('')">
+            </div>
+            <div class="filas">
+                <input type="button" value="MC" onclick="MC('')">
+                <input type="button" value="1" onclick="numero('1')">
+                <input type="button" value="2" onclick="numero('2')">
+                <input type="button" value="3" onclick="numero('3')">
+                <input type="button" value="/" onclick="dividir('/')">
+            </div>
+            <div class="filas">
+                <input type="button" value="MR" onclick="MR('')">
+                <input type="button" value="4" onclick="numero('4')">
+                <input type="button" value="5" onclick="numero('5')">
+                <input type="button" value="6" onclick="numero('6')">
+                <input type="button" value="+" onclick="suma('+')">
+            </div>
+            <div class="filas">
+                <input type="button" value="MS" onclick="MS('')">
+                <input type="button" value="7" onclick="numero('7')">
+                <input type="button" value="8" onclick="numero('8')">
+                <input type="button" value="9" onclick="numero('9')">
+                <input type="button" value="-" onclick="resta('-')">
+            </div>
+            <div class="filas-3">
+                <input type="button" value="M+" onclick="M('')">
+                <input type="button" value="0" onclick="numero('0')">
+                <input type="button" value="%" onclick="modulo('')">
+                <input type="button" value="sprt" onclick="raiz('')">
+                <input type="button" value="*" onclick="multi('*')">
+            </div>
+            <div class="filas-1">
+                <input type="button" value="^2" onclick="cuadrado('')">
+                <input type="button" value="1/x" onclick="inversa('')">
+            </div>
+            <div class="filas-igual">
+                <input type="button" value="=" onclick="igual('=')">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

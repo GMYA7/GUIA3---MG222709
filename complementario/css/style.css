@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.contenedor_calculadora{
+    width: 250px;
+    height: 370px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 20px;
+    background: skyblue;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+.contenedor_calculadora h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#respuesta{
+    height: 20px;
+    width: 90%;
+    margin-left: 10px;
+    background-color: white;
+}
+.filas,.filas-1,.filas-3,.filas-igual{
+    margin:auto;
+}
+.filas > input{
+    margin-left: 20px;
+    margin-bottom:15px ;
+}
+
+.filas-1 >input{
+    margin-left: 25px;
+    margin-bottom:15px ;
+}
+
+.filas-3 > input{
+    margin-left: 16px;
+    margin-bottom: 15px;
+}
+
+.filas-igual > input{
+    float: right;
+    width: 100px;
+
+}
