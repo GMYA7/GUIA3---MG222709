@@ -264,7 +264,7 @@ function igual(){
 
         case 'cuadrado':
 
-            if(operador == null){
+            if(operador == null && resultado = 0){
 
                 alert("vacio");
             }else{
